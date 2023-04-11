@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Oswald', Times New Roman;
+  background-color: rgb(225,236,231);
+}
+header{
+  line-height: 70px;
+  background-color: rgb(26,32,44);
+  color: rgb(225,236,231);
+  padding: 0 70px;
+}
+h1{
+  display: inline-block;
+}
+span{
+  padding: 0 10px;
+  font-size: 0.4cm;
+  color: rgb(130,130,130);
+}
+a{
+  color: rgb(130,130,130);
+  text-decoration: none;
+  transition: all .3s;
+}
+a:hover{
+  color: rgb(190,190,190);
+}
+section{
+  padding: 40px;
+}
+.wrap{
+  -webkit-columns: 300px;
+     -moz-columns: 300px;
+          columns: 300px;
+  -webkit-column-gap: 40px;
+     -moz-column-gap: 40px;
+          column-gap: 40px;
+}
+h2{
+  padding: 10px 30px;
+  font-weight: normal;
+  color: rgb(26,32,44);
+}
+h3{
+  color: rgb(130,130,130);
+  margin-bottom: .4em;
+  font-weight: normal;
+}
+p+p{
+  margin-top: .7em;
+}
+article{
+  padding: 30px;
+  background-color: rgb(255,255,255);
+  -webkit-column-break-inside: avoid;
+          page-break-inside: avoid;
+               break-inside: avoid;
+}
+article+article{
+  margin: 20px 0;
+}

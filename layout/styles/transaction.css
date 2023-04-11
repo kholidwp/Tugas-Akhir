@@ -1,0 +1,32 @@
+@import "compass/css3";
+
+body{
+  height: 1000px;
+  margin: 0;
+}
+header{
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  font-size: 35px;
+  height: 158px;
+  background: #9FF98A;
+  color: #fff;
+  font-family: 'PT Sans', sans-serif;
+  transition: all 0.4s ease;
+  h3{
+      margin: 0;
+      line-height: 158px;
+    }
+  &.sticky{
+    font-size: 18px;
+    height: 72px;
+    background: #45BF37;
+    text-align: left;
+    padding-left: 20px;
+    h3{
+      margin: 0;
+      line-height: 72px;
+    }
+  }
+}
